@@ -1,0 +1,10 @@
+import turtle
+game = turtle.Turtle()
+game.forward(100)
+game.right(90)
+game.forward(100)
+game.right(90)
+game.forward(100)
+game.right(90)
+game.forward(100)
+game.right(90)
