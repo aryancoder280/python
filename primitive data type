@@ -1,0 +1,8 @@
+var = 2;
+print(type(var))
+var ="hello"
+print(type(var))
+var = True
+print(type(var))
+var = 2.34
+print(type(var))
