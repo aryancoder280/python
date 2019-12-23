@@ -1,0 +1,8 @@
+aryan ="happy"
+count=0
+while aryan == "happy":
+  if count==2:
+    aryan="sad" 
+  else:
+    print("aryan is happy")
+  count+=1
