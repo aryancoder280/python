@@ -1,0 +1,7 @@
+list_of_numbers = [1,2,3,4]
+print(list_of_numbers)
+list_of_strings = ["aryan","the","billionaire","in",10,"years"]
+print(list_of_strings)
+list_in_list = [1,2,[1,2,3],[4,5]]
+print(list_in_list)
+print(list_in_list[3])
