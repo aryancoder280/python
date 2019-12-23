@@ -1,0 +1,6 @@
+x = 24
+print(type(x))
+print(float(x))
+print(type(x))
+x = float(x)
+print(type(x))
