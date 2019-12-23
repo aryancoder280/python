@@ -1,0 +1,18 @@
+import turtle
+
+game = turtle.Turtle()
+
+def square():
+  game.forward(100)
+  game.right(90)
+  game.forward(100)
+  game.right(90)
+  game.forward(100)
+  game.right(90)
+  game.forward(100)
+  
+
+
+square()
+#game.forward(100)
+square()
