@@ -1,0 +1,7 @@
+elephent_weight = 3000
+ant_weight = 3200
+
+if elephent_weight > ant_weight:
+  print("elephent_weight is bigger")
+else:
+  print("ant is bigger")
