@@ -1,16 +1,40 @@
+
 list_of_numbers = [4,3,2,1]
 print(list_of_numbers)
+
 list_of_strings = ["aryan","the","billionaire","in",10,"years"]
 print(list_of_strings)
+
 list_in_list = [1,2,[1,2,3],[4,5]]
 print(list_in_list)
+
 print(list_in_list[3])
 l =[]
+
 l.append("hello world")
 print(l)
 
 print("before sort")
 print(list_of_numbers)
 print("after sorting")
+
 list_of_numbers.sort()
 print(list_of_numbers)
+
+list_of_numbers.insert(1,5)
+print(list_of_numbers)
+
+list_of_numbers.append(5);
+print(list_of_numbers)
+
+# remove works from left to right
+#if we call remove one time for a number/word and it is present more than a time then it will remove that word/number which comes from left side first
+
+list_of_numbers.remove(5)
+print(list_of_numbers)
+
+list_of_numbers.reverse()
+print(list_of_numbers)
+
+for i in list_of_numbers:
+  print(i)
