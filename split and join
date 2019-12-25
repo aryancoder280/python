@@ -1,0 +1,14 @@
+problems = "broke, pale, short, nerdy"
+
+#splitting the string on a delimiter
+
+l =problems.split(", ")
+print(l)
+
+#join
+
+joined = ' and '.join(l)
+
+print(joined)
+original_string = ','.join(l)
+print(original_string)
