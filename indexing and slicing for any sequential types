@@ -1,0 +1,34 @@
+digits = [0,1,2,3,4,5,6,7,8,9]
+
+print(digits[2])
+#negative indexing
+print(digits[-1])
+print(digits[-len(digits)])
+#to access range elements
+#slicing
+print(digits[:4])
+# note that the 4 is exclusive
+print(digits[2:4])
+# to jump elements while printing
+#slicing over
+
+#stridding start
+print(digits[0:10:2])
+#initially it was 1 where we wrote 2 that is why consecutive elements were printing now jump will occur
+
+
+
+print(digits[::2])#same as above
+print(digits[::-2])#-2 jump will start from back and right to left and jump of 2
+# to traverse range in reverse order
+print(digits[5:0:-2])
+#stridding over
+print()
+for i in range(len(digits)):
+  print(digits[:i])
+
+print()
+window_size = 3;
+for i in range(len(digits)):
+  if i+window_size<=len(digits):
+    print(digits[i:i+window_size])
