@@ -1,0 +1,48 @@
+# set uses {}
+# we cannot have duplicates in a set
+# non iteratable because it is unordered not in sorted order unlike in c++
+
+s = {"banana","rasberry"}
+s.add("apple")
+s.add(123)
+s.add("banana") # duplicate
+print(s);
+
+l = [1,1,2,3,3,2,3,4,5] # l is list
+
+# lets typecaste it into set
+
+no_duplicates_set = set(l)
+
+print(no_duplicates_set)
+
+# methods in set 
+print()
+print()
+
+library_1 = {"harry potter", " gamer win", " romeo and juliet"}
+
+library_2 = {"harry potter", "foody boy"}
+# union function
+
+library_3 = library_1.union(library_2)
+
+print(library_1)
+print()
+
+print(library_2)
+print()
+print(library_3)
+print()
+
+# books in both library 
+
+books_in_both_libraries = library_1.intersection(library_2)
+
+print()
+print(books_in_both_libraries)
+
+# difference set  
+diff = library_1.difference(library_2)
+print()
+print(diff)
