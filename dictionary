@@ -52,5 +52,5 @@ print(groceries)#empty
 
 #orignally dictonaries are unordered
 
-# for ordered dictionary we include a library
+# for ordered dictionary we include a library:
 #from collections import OrdereDict in next repository
