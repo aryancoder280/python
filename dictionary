@@ -1,9 +1,9 @@
 from collections import OrderedDict
 #normally, indexes of tuple, sets, lists is an integer
 
-# here a dictonary provides a facility to specify what your index names are that means we can change type of indexes from integer to any type :)
+# here a dictionary provides a facility to specify what your index names are that means we can change type of indexes from integer to any type :)
 
-# one element dictonary
+# one element dictionary
 # (KEY : VALUE) PAIR
 groceries = {'banana': 5, 'oranges' : 3, 'apple':10}
 
@@ -15,14 +15,14 @@ print(groceries['oranges']) # output is 3
 
 print(groceries.get("banana"))
 
-print(groceries.get("python")) # output is None 'coz no python key in the dictonary 
+print(groceries.get("python")) # output is None 'coz no python key in the dictionary 
 
-# dictonary for phonebook
+# dictionary for phonebook
 
 phonebook = {'Aryan': [884990992,'aryansaprajiit@gmail.com'],
   'rahul': 7288390300,
   'clever programmer': 6340012999,
-  #dictonary inside dictonary
+  #dictionary inside dictionary
   'phonebook': {'phone':12344555, 'email':'aryansaprajiit@gmail.com'}
 }
 
@@ -40,17 +40,17 @@ groceries.pop('banana') #delete the element having key = banana
 print(groceries.items())
 
 print()  
-groceries.popitem()# pop out the last key-value pair from the dictonary
+groceries.popitem()# pop out the last key-value pair from the dictionary
 print(groceries.items())
 
-groceries['pasta'] = 1 #add this key-value in the dictonary
+groceries['pasta'] = 1 #add this key-value in the dictionary
 
 print(groceries.items())
 
-groceries.clear() # clear out the dictonary
+groceries.clear() # clear out the dictionary
 print(groceries)#empty
 
 #orignally dictonaries are unordered
 
-# for ordered dictonary we include a library
+# for ordered dictionary we include a library
 #from collections import OrdereDict in next repository
