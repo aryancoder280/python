@@ -1,0 +1,56 @@
+from collections import OrderedDict
+#normally, indexes of tuple, sets, lists is an integer
+
+# here a dictonary provides a facility to specify what your index names are that means we can change type of indexes from integer to any type :)
+
+# one element dictonary
+# (KEY : VALUE) PAIR
+groceries = {'banana': 5, 'oranges' : 3, 'apple':10}
+
+# VALUES CAN BE ACCESS ONLY THROUGH THEIR KEY VALUES
+
+print(groceries['oranges']) # output is 3
+
+# get function
+
+print(groceries.get("banana"))
+
+print(groceries.get("python")) # output is None 'coz no python key in the dictonary 
+
+# dictonary for phonebook
+
+phonebook = {'Aryan': [884990992,'aryansaprajiit@gmail.com'],
+  'rahul': 7288390300,
+  'clever programmer': 6340012999,
+  #dictonary inside dictonary
+  'phonebook': {'phone':12344555, 'email':'aryansaprajiit@gmail.com'}
+}
+
+print(phonebook['phonebook'])
+print() 
+print(groceries.items())
+print() 
+print(groceries.keys())
+print()    
+print(groceries.values())
+print() 
+
+groceries.pop('banana') #delete the element having key = banana
+
+print(groceries.items())
+
+print()  
+groceries.popitem()# pop out the last key-value pair from the dictonary
+print(groceries.items())
+
+groceries['pasta'] = 1 #add this key-value in the dictonary
+
+print(groceries.items())
+
+groceries.clear() # clear out the dictonary
+print(groceries)#empty
+
+#orignally dictonaries are unordered
+
+# for ordered dictonary we include a library
+#from collections import OrdereDict in next repository
